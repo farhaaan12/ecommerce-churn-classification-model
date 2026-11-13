@@ -1,0 +1,85 @@
+{
+  "current": "v004_20261113_195443_848835",
+  "versions": [
+    {
+      "version": "v001_20261113_172403_940113",
+      "path": "model_artifacts\\churn_model_v001_20261113_172403_940113.joblib",
+      "status": "previous",
+      "notes": "Hasil notebook (lihat metadata)",
+      "created_at": "2026-11-13T17:24:03",
+      "threshold": 0.3,
+      "candidate": "tuned",
+      "test_metrics": {
+        "Recall": 0.9159,
+        "Precision": 0.7101,
+        "F1": 0.8,
+        "Recall (0.5)": 0.8411,
+        "Precision (0.5)": 0.7965,
+        "ROC-AUC": 0.9602,
+        "PR-AUC": 0.8381,
+        "Hemat vs tanpa kampanye": 7.8,
+        "Hemat vs kampanye semua": 24.45
+      }
+    },
+    {
+      "version": "v002_20261113_191627_269665",
+      "path": "model_artifacts\\churn_model_v002_20261113_191627_269665.joblib",
+      "status": "previous",
+      "notes": "Hasil notebook (lihat metadata)",
+      "created_at": "2026-11-13T19:16:27",
+      "threshold": 0.3,
+      "candidate": "tuned",
+      "test_metrics": {
+        "Recall": 0.9159,
+        "Precision": 0.7101,
+        "F1": 0.8,
+        "Recall (0.5)": 0.8411,
+        "Precision (0.5)": 0.7965,
+        "ROC-AUC": 0.9602,
+        "PR-AUC": 0.8381,
+        "Hemat vs tanpa kampanye": 7.8,
+        "Hemat vs kampanye semua": 24.45
+      }
+    },
+    {
+      "version": "v003_20261113_193342_439648",
+      "path": "model_artifacts\\churn_model_v003_20261113_193342_439648.joblib",
+      "status": "previous",
+      "notes": "Hasil notebook (lihat metadata)",
+      "created_at": "2026-11-13T19:33:42",
+      "threshold": 0.3,
+      "candidate": "tuned",
+      "test_metrics": {
+        "Recall": 0.9159,
+        "Precision": 0.7101,
+        "F1": 0.8,
+        "Recall (0.5)": 0.8411,
+        "Precision (0.5)": 0.7965,
+        "ROC-AUC": 0.9602,
+        "PR-AUC": 0.8381,
+        "Hemat vs tanpa kampanye": 7.8,
+        "Hemat vs kampanye semua": 24.45
+      }
+    },
+    {
+      "version": "v004_20261113_195443_848835",
+      "path": "model_artifacts\\churn_model_v004_20261113_195443_848835.joblib",
+      "status": "current",
+      "notes": "Hasil notebook (lihat metadata)",
+      "created_at": "2026-11-13T19:54:43",
+      "threshold": 0.3,
+      "candidate": "tuned",
+      "test_metrics": {
+        "Recall": 0.9159,
+        "Precision": 0.7101,
+        "F1": 0.8,
+        "Recall (0.5)": 0.8411,
+        "Precision (0.5)": 0.7965,
+        "ROC-AUC": 0.9602,
+        "PR-AUC": 0.8381,
+        "Hemat vs tanpa kampanye": 7.8,
+        "Hemat vs kampanye semua": 24.45
+      }
+    }
+  ]
+}
