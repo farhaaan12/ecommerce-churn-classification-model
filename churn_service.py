@@ -37,9 +37,15 @@ def load_model(version=None):
             "from the notebook, or set MODEL_PATH to a .joblib file."
         )
     entry = next(v for v in reg["versions"] if v["version"] == version)
-    path = entry["path"]
-    if not os.path.exists(path):  # registry stores paths from the training machine
-        path = os.path.join(MODEL_DIR, os.path.basename(path))
+    # The registry stores the path from the training machine (Windows uses "\\"), so normalise it
+    # and look for the file by name inside MODEL_DIR.
+    fname = entry["path"].replace("\\", "/").split("/")[-1]
+    path = os.path.join(MODEL_DIR, fname)
+    if not os.path.exists(path):
+        raise FileNotFoundError(
+            f"Model file '{fname}' (version {version}) not found in '{MODEL_DIR}'. "
+            f"Files present: {sorted(os.listdir(MODEL_DIR)) if os.path.isdir(MODEL_DIR) else 'folder missing'}"
+        )
     return joblib.load(path)
 
 
