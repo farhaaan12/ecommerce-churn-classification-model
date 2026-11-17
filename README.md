@@ -201,3 +201,5 @@ Python, pandas, NumPy, scikit-learn, imbalanced-learn, XGBoost, LightGBM, SHAP, 
 - Name: Emily Vitasya Haloho, Farhan
 - Email: farhanfarhan54202@gmail.cpm
 - Linkedin: https://www.linkedin.com/in/farhan-farhan-350a48253/
+
+link to machine learning : https://ecommerce-churn-classification-model-krxprqictgfbfwzxcvycxg.streamlit.app/
